@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+body{
+    background-color: #FDE12D !important;
+}
+
+
+.navbar{
+    background-color: #FDE12D !important;
+}
+
+
+.navbar img{
+    width: 60px;
+}
+
+
+.img-marcas img{
+    width: 90px;
+    justify-content: end;
+}
+
+
+
+.caja-ini{
+    background-color: #7209b7;
+    height: 400px;
+    width: auto;
+}
+
+.caja-ini h1 , h2 {
+    color: aliceblue;
+    margin-top: 20px;
+}
+.caja-ini img{
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+
+}
+.boton-compra-caja{
+    margin:  20px   auto;
+    background-color: #e70e02;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.caja-ini a{
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+
+   
+    
+
+}
+
+a:hover{
+    background-color: #7209b7;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+.carousel-item img{
+    width: auto;
+    height: 500px;
+}
+
+
+
+.caja-producto1{
+    
+    justify-content: center;
+    background-color: #ffffff;
+    border: solid #FDE12D;
+    height: 500px;
+    width: 33%;
+    margin:10px  auto;
+
+}
+
+.caja-producto1 h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #03071e;
+    margin-top: 10px;
+
+
+}
+
+.caja-producto1 h2{
+    color: #d90429;
+    text-align: center;
+    font-size: 20px;
+    
+    
+}
+
+.caja-producto1 img{
+    height: 200px;
+    width: 100%;
+    display: block;
+    margin:10px  auto;
+    border-radius: 40% ;
+ 
+
+}
+.comprar-buton{
+    display: flex;
+    justify-content: center;
+}
+
+
+.comprar-buton i{
+
+    width: 40px;
+    height: 30px;
+   
+}
+
+.caja-producto1 a{
+  
+    text-decoration: none;
+    background-color: green;
+    color: #ffffff;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: center;
+   
+ 
+
+}
+.video-b video{
+    height: 500px;
+    width: 100%;
+    
+}
+
+.footer{
+    background-color: #ffbe0b;
+    height: 250px;
+}
+
+
+.footer h1,h3,h2 ,p{
+    color: #ffffff;
+    left: 10px  ;
+    
+}
+
+
+.footer i{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px ;
+    margin: 10px;
+
+}
+
+
+
+.contac2 a{
+    text-decoration: none;
+    color: #ffffff;
+    
+
+}
+
+
+
+
+@media (max-width:412px ){
+
+
+    .caja-ini{
+        background-color: #7209b7;
+        height: 300px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .caja-ini h1 , h2 {
+        color: aliceblue;
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .caja-ini img{
+        border-radius: 20px;
+        width: 200px;
+        height: 150px;
+        margin-top: 50px;
+        display: block;
+        margin: auto;
+       
+    
+    }
+
+
+    .caja-producto1{
+    margin: auto;
+        justify-content: center;
+        background-color: #ffffff;
+        border: solid #FDE12D;
+        height: 500px;
+        width: 340px;
+    
+    }
+    
+    
+}
+
+
+
+@media (max-width:414px ){
+
+
+    .caja-producto1{
+    
+        justify-content: center;
+        background-color: #ffffff;
+        border: solid #FDE12D;
+        height: 500px;
+        width: 25%;
+        margin:10px  auto;
+    
+    }
+
+
+    .caja-producto1 img{
+        height: 200px;
+        width: 50%;
+        display: block;
+        margin:10px  auto;
+        border-radius: 40% ;
+     
+    
+    }
+    
+    .caja-ini{
+        
+        background-color: #7209b7;
+        height: 400px;
+        width: auto;
+    }
+    
+}
