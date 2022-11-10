@@ -59,9 +59,7 @@ body{
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
-
-   
-    
+    border-radius: 10px;
 
 }
 
@@ -87,6 +85,7 @@ a:hover{
     height: 500px;
     width: 33%;
     margin:10px  auto;
+    border-radius: 10px;
 
 }
 
@@ -108,38 +107,38 @@ a:hover{
 }
 
 .caja-producto1 img{
-    height: 200px;
+    height: 250px;
     width: 100%;
     display: block;
     margin:10px  auto;
-    border-radius: 40% ;
- 
+    
 
 }
 .comprar-buton{
     display: flex;
     justify-content: center;
+    border-radius: 20px;
 }
 
 
 .comprar-buton i{
-
     width: 40px;
     height: 30px;
-   
+    border-radius: 10px;
 }
 
 .caja-producto1 a{
-  
     text-decoration: none;
     background-color: green;
     color: #ffffff;
     font-size: 1.5rem;
     width: 50%;
     text-align: center;
-   
- 
+    border-radius: 10px;
+}
 
+.caja-producto1 a:hover {
+    background-color: #ffd60a;
 }
 .video-b video{
     height: 500px;

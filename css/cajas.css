@@ -64,6 +64,10 @@ body{
 
 }
 
+.boton-compra i {
+    color: #fff;
+}
+
 a:hover{
     background-color: blueviolet;
 }
@@ -147,6 +151,11 @@ a:hover{
 
 @media (max-width: 420px)   {
 
+
+    .todocaja{
+        display: block;
+        margin:20px  auto;
+    }
     .carru-img{
         margin: auto;
         margin-top: 10px;
