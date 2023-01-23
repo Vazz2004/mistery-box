@@ -11,10 +11,9 @@ body{
 
 
 .navbar{
-    background-color: #ffbe0b  ;
     z-index: 1000;
+    background-color: #FDE12D !important;
     width: 100%;
-    height: 80px;
 }
 
 
@@ -59,18 +58,23 @@ body{
     color: #000;
 }
 
-.carousel{
-    margin-top: 90px;
+
+header{
+    position: relative;
+    margin-top: 120px;
+}
+.bienvenida-cajas p{
+    margin-top: 50px;
+    color: #0a141d; 
     
 }
 
-.carousel p,h5{
-    color:  #000;
+.img-bienvenida img{
+    margin: 80px  auto;
+    width: 100%
 }
-.carousel-item img{
-    width: 100%;
-    height: 450px;
-}
+
+
 
 .card {
     margin-top: 20px;
