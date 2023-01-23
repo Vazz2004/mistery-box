@@ -11,7 +11,6 @@ body{
 
 
 .navbar{
-    position:fixed !important ;
     background-color: #ffbe0b  ;
     z-index: 1000;
     width: 100%;
@@ -58,14 +57,10 @@ body{
     position: relative;
     margin-top: 140px;
     color: #000;
-    border-radius: 40px;
-}
-a:hover{
-    background-color:#7209b7;
 }
 
 .carousel{
-    background-color: #ffbe0b;
+    margin-top: 90px;
     
 }
 

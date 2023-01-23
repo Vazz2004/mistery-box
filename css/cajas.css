@@ -24,19 +24,22 @@ body{
 }
 
 .bienvenida-cajas{
-    background-color: blueviolet;
+    
     width: 100%;
     border-radius: 20px;
 }
 .bienvenida-cajas p{
     margin-top: 0px;
-    color: aliceblue; 
+    color: #0a141d; 
     
 }
 
+.img-bienvenida img{
+    margin: 90px  auto;
+}
 .titulo-bienvenida-cajas h1{
     margin-top: 90px;
-    color: aliceblue;
+    color: #0a141d;
 
 }
 
@@ -80,10 +83,6 @@ body{
 
 .boton-compra i {
     color: #fff;
-}
-
-a:hover{
-    background-color: blueviolet;
 }
 
 
@@ -188,7 +187,6 @@ a:hover{
 
     .bienvenida-cajas{
         margin: auto;
-        background-color: blueviolet;
         width: 100%;
         border-radius: 20px;
     }
