@@ -10,12 +10,18 @@ body{
 }
 
 
-.navbar{
+.navbar {
     z-index: 1000;
-    background-color: #FDE12D !important;
-    width: 100%;
+    background-color: #0a141d;
+    width: 100%;;
 }
 
+.btn-front a{
+    color: #fff;
+}
+.dropdown-menu a {
+    color: #000;
+}
 
 .navbar img{
     margin:10px auto;
@@ -28,9 +34,27 @@ body{
     justify-content: end;
 }
 
+.cart-inicio{
+    border:1px rgb(199, 193, 193) solid;
+    height: 250px;
+    border-radius: 10px;
+}
+.cart-inicio a{
+    display: block;
+    margin: 0px auto;
+    width: 300px;
+
+}
 
 
+.descrip-cart-inicio p{
+    left: 10px;
 
+}
+.cart-inicio img{
+    width: 20px;
+    margin-right: 15px;
+}
 
 
 .boton-compra-caja{

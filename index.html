@@ -17,13 +17,9 @@
     </script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-
-    <link rel="icon" href="./img/favi.ico" />
-
     <script src="https://kit.fontawesome.com/a7a01f61d2.js" crossorigin="anonymous"></script>
 
-
+    <link rel="icon" href="./img/favi.ico" />
     <!--link css-->
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/stylocontador.css" />
@@ -36,7 +32,7 @@
 <body>
     <div class="container-fluit">
         <nav class="navbar navbar-expand-lg fixed-top     animate__animated animate__backInLeft wow">
-            <div class="container-fluid">
+            <div class="container-fluid btn-front">
                 <a class="navbar-brand" href="index.html"><img src="./img/logo-nav.png" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -46,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link " aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./sub-pgis/cajas.html">Cajas Misteriosas</a>
@@ -77,7 +73,7 @@
         </nav>
     </div>
     <div class="container">
-        
+
 
         <div class="row bienvenida">
             <div class="titulo-bienvenida-cajas col-md-6 animate__animated animate__fadeInUp wow">
@@ -89,7 +85,7 @@
 
                         Ideal para regalar a tu pareja, familia y amigos, no tienes que perder el tiempo eligiendo
                         regalos.</p>
-                        <a href="#premios" class="btn btn-warning">Posibles premios</a>
+                    <a href="#premios" class="btn btn-warning">Posibles premios</a>
                 </header>
             </div>
             <div class="img-bienvenida animate__animated animate__fadeInUp wow col-md-6">
@@ -98,10 +94,27 @@
         </div>
 
 
+        <div class="todo-cart-ini">
+            <div class="cart-inicio ">
+                <div class="row">
+                    <div class="descrip-cart-inicio col-md-12">
+                        <h1 class="text-center">Compra tu caja ahora!!</h1>
+                        <p class="text-center">Los productos de la caja que compras son inciertos. El objetivo es crear
+                            sorpresa y misterio. ¡Quizás tengas suerte! es lo mas probable. Sorpresas diferentes,
+                            regalos inesperados y tu buena fortuna nunca termina. Ideal para regalar a tu pareja,
+                            familia y amigos, no tienes que perder el tiempo eligiendo regalos.</p>
+                        <a href="/sub-pgis/cajas.html" type="button" class="btn btn-warning  btn-cart-ini"><img src="/img/iconos/caja.png"
+                                alt="">ver cajas</a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <div class="row todo-title-posibles">
             <h1 id="productos" class="text-center titulo-posibles">Posibles premios</h1>
         </div>
-        
+
         <div>
             <a class="btn-flotanteUp">Contador Productos:</a>
             <a id="contador" class="btn-flotante">Contador Productos</a>
@@ -111,17 +124,25 @@
         <div id="premios" class="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInUp wow">
             <div class="col">
                 <div class="card">
-                    <img src="./img/productos/Combo-Teclado-Mouse-Gamer-Retroiluminado-Jertech.jpeg" class="card-img-top" alt="...">
+                    <img src="./img/productos/Combo-Teclado-Mouse-Gamer-Retroiluminado-Jertech.jpeg"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Combo Teclado Mouse Gamer Jertech</h5>
                         <h1>Oferta del dia</h1>
-                        <p class="card-text">Interruptor Jertech: 40 g de presión de disparo Número de llaves: 104 llaves 8 millones de pulsaciones de teclas de por vida Cable de cobre Tamaño: 473 (W) x 193 (L) x 31 (H) Una variedad de geniales efectos de iluminación 
+                        <p class="card-text">Interruptor Jertech: 40 g de presión de disparo Número de llaves: 104
+                            llaves 8
+                            millones de pulsaciones de teclas de por vida Cable de cobre Tamaño: 473 (W) x 193 (L) x 31
+                            (H)
+                            Una variedad de geniales efectos de iluminación
 
                             Una variedad de geniales efectos de rayos</p>
-                            <h2>Valor $:</h2><h2 id="unoauno" >70000</h2>
-                            <button class="salio" id="unoaunoboton">¡Me salio!</button>
-                            <button onclick="window.location.href='https://articulo.mercadolibre.com.co/MCO-1181579813-combo-gamer-teclado-mouse-gamer-retroiluminado-km180-_JM#position=11&search_layout=stack&type=item&tracking_id=1bc46470-f03b-4b73-bf85-20e2d65ed4aa'" class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="unoauno">70000</h2>
+                        <button class="salio" id="unoaunoboton">¡Me salio!</button>
+                        <button
+                            onclick="window.location.href='https://articulo.mercadolibre.com.co/MCO-1181579813-combo-gamer-teclado-mouse-gamer-retroiluminado-km180-_JM#position=11&search_layout=stack&type=item&tracking_id=1bc46470-f03b-4b73-bf85-20e2d65ed4aa'"
+                            class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -130,12 +151,14 @@
                     <img src="./img/productos/hdmi.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cable HDMI 1.5M HD</h5>
-                        <p class="card-text">Cable de alta definición tipo A de alta calidad, conexión de equipos de audio/video que reproducen
+                        <p class="card-text">Cable de alta definición tipo A de alta calidad, conexión de equipos de
+                            audio/video que reproducen
                             señal de alta definición TV’ LED o LCD y reproductores de DVD de alta definición</p>
-                            <h2>Valor $:</h2><h2 id="hdmi">8900</h2>
-                            <button class="salio" id="hdmiboton">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="hdmi">8900</h2>
+                        <button class="salio" id="hdmiboton">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -144,11 +167,14 @@
                     <img src="./img/productos/audifonos-yd-a6.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Audífonos YD-A6 Ultrasonido</h5>
-                        <p class="card-text">Auricular Alta Fidelidad, conexión 3.5 mm, caja de lujo sellada al vacío, marca YINDU.</p>
-                            <h2>Valor $:</h2><h2 id="yda6">21900</h2>
-                            <button class="salio" id="yda6boton">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <p class="card-text">Auricular Alta Fidelidad, conexión 3.5 mm, caja de lujo sellada al vacío,
+                            marca
+                            YINDU.</p>
+                        <h2>Valor $:</h2>
+                        <h2 id="yda6">21900</h2>
+                        <button class="salio" id="yda6boton">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -160,14 +186,17 @@
                     <img src="./img/productos/Memoria_USB_8GB_TM_2.0.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Memoria USB 8GB TM 2.0</h5>
-                        <p class="card-text">Ideal para compartir tus archivos, la unidad USB cuenta con múltiples interfaces para que puedas
-                            transferir fotos, música y otros documentos entre computadoras, teléfonos, tablets y dispositivos
+                        <p class="card-text">Ideal para compartir tus archivos, la unidad USB cuenta con múltiples
+                            interfaces para que puedas
+                            transferir fotos, música y otros documentos entre computadoras, teléfonos, tablets y
+                            dispositivos
                             inteligentes.</p>
-                            <h2>Valor $:</h2><h2 id="usb8">25900</h2>
-                            <button class="salio" id="botonusb8">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
-                            
+                        <h2>Valor $:</h2>
+                        <h2 id="usb8">25900</h2>
+                        <button class="salio" id="botonusb8">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
+
                     </div>
                 </div>
             </div>
@@ -175,9 +204,12 @@
                 <div class="card">
                     <img src="./img/productos/Audifonos_YD-ST2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Audifonos YD-ST2 <title></title></h5>
-                        <p class="card-text">Cable Siliconado, entrada 3.5mm, contestador de llamada, sellado al vacío.</p>
-                        <h2>Valor $:</h2><h2 id="YD-ST2">27500</h2>
+                        <h5 class="card-title">Audifonos YD-ST2 <title></title>
+                        </h5>
+                        <p class="card-text">Cable Siliconado, entrada 3.5mm, contestador de llamada, sellado al vacío.
+                        </p>
+                        <h2>Valor $:</h2>
+                        <h2 id="YD-ST2">27500</h2>
                         <button class="salio" id="botonYDST2">¡Me salio!</button>
                         <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
                         <hr>
@@ -189,13 +221,17 @@
                     <img src="./img/productos/Mouse _JR1_Inalambrico.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Mouse JR1 Inalambrico</h5>
-                        <p class="card-text">Jertech JR1 inalámbrico, tendrás libertad de movimiento en tu lugar de trabajo ya que estarás libre
-                            de cables. Sensor óptico: 1200 ppp, batería: 2 pilas AAA, distancia inalámbrica: máx.10 metros,
+                        <p class="card-text">Jertech JR1 inalámbrico, tendrás libertad de movimiento en tu lugar de
+                            trabajo
+                            ya que estarás libre
+                            de cables. Sensor óptico: 1200 ppp, batería: 2 pilas AAA, distancia inalámbrica: máx.10
+                            metros,
                             sistema inalámbrico: 2.4GHZ, conexión USB.</p>
-                            <h2>Valor $:</h2><h2 id="JR1">29500</h2>
-                            <button class="salio" id="botonJR1">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="JR1">29500</h2>
+                        <button class="salio" id="botonJR1">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
 
                     </div>
                 </div>
@@ -206,12 +242,15 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInUp wow">
             <div class="col">
                 <div class="card">
-                    <img src="./img/productos/Cargador_De_Pared_Para_Celular_P39-IPHONE.webp" class="card-img-top" alt="...">
+                    <img src="./img/productos/Cargador_De_Pared_Para_Celular_P39-IPHONE.webp" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cargador De Pared Para Celular P39-IPHONE</h5>
-                        <p class="card-text">Cargador para iPhone, carga Rápida, potencia: entrada: 110V-240V 50Hz 0.6A, salida PD: DC5V/3A
+                        <p class="card-text">Cargador para iPhone, carga Rápida, potencia: entrada: 110V-240V 50Hz 0.6A,
+                            salida PD: DC5V/3A
                             9V/2.22A 12V/1.5A MAX, largo del Cable: 1M.</p>
-                        <h2>Valor $:</h2><h2 id="P39">39900</h2>
+                        <h2>Valor $:</h2>
+                        <h2 id="P39">39900</h2>
                         <button class="salio" id="botonP39">¡Me salio!</button>
                         <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
                         <hr>
@@ -220,15 +259,19 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./img/productos/Audifonos_Bluetooth_TWS_Marca T_TM-JC12.webp" class="card-img-top" alt="...">
+                    <img src="./img/productos/Audifonos_Bluetooth_TWS_Marca T_TM-JC12.webp" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Audifonos Bluetooth TWS JC12 <title></title></h5>
-                        <p class="card-text">Audífonos Bluetooth con función TWS, una excelente opción si buscas algo de buena relación
+                        <h5 class="card-title">Audifonos Bluetooth TWS JC12 <title></title>
+                        </h5>
+                        <p class="card-text">Audífonos Bluetooth con función TWS, una excelente opción si buscas algo de
+                            buena relación
                             Precio-Calidad. Empaque de lujo y bajos pronunciados. Empaque de lujo, Bluetooth </p>
-                            <h2>Valor $:</h2><h2 id="H5">78500</h2>
-                            <button class="salio" id="botonH5">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="H5">78500</h2>
+                        <button class="salio" id="botonH5">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -237,13 +280,18 @@
                     <img src="./img/productos/maquinadeafeitar89.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Maquina electrica de afeitar Z1</h5>
-                        <p class="card-text">Cuida tu piel, este sistema de afeitado se adapta fácilmente a los contornos del rostro y elimina
-                            todo el pelo en pocas pasadas y con gran precisión. Además, genera menos presión contra la piel, lo
+                        <p class="card-text">Cuida tu piel, este sistema de afeitado se adapta fácilmente a los
+                            contornos
+                            del rostro y elimina
+                            todo el pelo en pocas pasadas y con gran precisión. Además, genera menos presión contra la
+                            piel,
+                            lo
                             que evita irritación o cortes no deseados.</p>
-                            <h2>Valor $:</h2><h2 id="Z1">80000</h2>
-                            <button class="salio" id="botonZ1">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="Z1">80000</h2>
+                        <button class="salio" id="botonZ1">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
 
                     </div>
                 </div>
@@ -257,14 +305,18 @@
                     <img src="./img/productos/SmartWacth Bluetooth Y68.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">SmartWacth Bluetooth Y68</h5>
-                        <p class="card-text">Funciones: Deporte, Mensaje, Despertador, Oxígeno en sangre, Fecha, Medición de la frecuencia
-                            cardíaca, Recordatorio sedentario, Gestión del sueño, Hora. Tipo de notificación: Facebook, Twitter,
+                        <p class="card-text">Funciones: Deporte, Mensaje, Despertador, Oxígeno en sangre, Fecha,
+                            Medición de
+                            la frecuencia
+                            cardíaca, Recordatorio sedentario, Gestión del sueño, Hora. Tipo de notificación: Facebook,
+                            Twitter,
                             WeChat, WhatsApp. Tipo de alerta: Vibración</p>
-                            <h2>Valor $:</h2><h2 id="Y68">65900</h2>
-                            <button class="salio" id="botonY68">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
-                            
+                        <h2>Valor $:</h2>
+                        <h2 id="Y68">65900</h2>
+                        <button class="salio" id="botonY68">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
+
                     </div>
                 </div>
             </div>
@@ -272,27 +324,34 @@
                 <div class="card">
                     <img src="./img/productos/Cable Micro USB.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cable Micro USB<title></title></h5>
-                        <p class="card-text">Cable Micro USB para Carga Y Datos Con Filtro USB 2.0 de excelente calidad. Compatible con las marcas
+                        <h5 class="card-title">Cable Micro USB<title></title>
+                        </h5>
+                        <p class="card-text">Cable Micro USB para Carga Y Datos Con Filtro USB 2.0 de excelente calidad.
+                            Compatible con las marcas
                             Samsung, Huawei, Sony, HTC y otros.</p>
-                            <h2>Valor $:</h2><h2 id="MUSB">12500</h2>
-                            <button class="salio" id="botonMUSB">¡Me salio!</button>
-                            <button class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="MUSB">12500</h2>
+                        <button class="salio" id="botonMUSB">¡Me salio!</button>
+                        <button class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="./img/productos/Gamepad Android - PC Inalambrico Bluetooth.jpeg" class="card-img-top" alt="...">
+                    <img src="./img/productos/Gamepad Android - PC Inalambrico Bluetooth.jpeg" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Gamepad Android - PC Inalambrico Bluetooth</h5>
-                        <p class="card-text">Mando inalámbrico Bluetooth 3,0 Gamepad es un controlador inalámbrico Bluetooth diseñado para plataforma de uso en teléfonos Android
-                            </p>
-                            <h2>Valor $:</h2><h2 id="GPAD">45900</h2>
-                            <button class="salio" id="botonGPAD">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <p class="card-text">Mando inalámbrico Bluetooth 3,0 Gamepad es un controlador inalámbrico
+                            Bluetooth
+                            diseñado para plataforma de uso en teléfonos Android
+                        </p>
+                        <h2>Valor $:</h2>
+                        <h2 id="GPAD">45900</h2>
+                        <button class="salio" id="botonGPAD">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
 
                     </div>
                 </div>
@@ -305,12 +364,15 @@
                     <img src="./img/productos/Memoria Micro SD 8Gb.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Memoria Micro SD 8Gb</h5>
-                        <p class="card-text">La micro SD es una tarjeta de memoria flash extraíble utilizada para almacenar información digital, como programas y archivos.</p>
-                        <h2>Valor $:</h2><h2 id="SD8">27000</h2>
+                        <p class="card-text">La micro SD es una tarjeta de memoria flash extraíble utilizada para
+                            almacenar
+                            información digital, como programas y archivos.</p>
+                        <h2>Valor $:</h2>
+                        <h2 id="SD8">27000</h2>
                         <button class="salio" id="botonSD8">¡Me salio!</button>
                         <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
                         <hr>
-                            
+
                     </div>
                 </div>
             </div>
@@ -318,13 +380,17 @@
                 <div class="card">
                     <img src="./img/productos/Gamepad Tipo Xbox G100 Alambrico.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Gamepad Tipo Xbox G100 <title></title></h5>
-                        <p class="card-text">Control preciso, este mando combina funciones revolucionarias mientras conserva precisión, comodidad
+                        <h5 class="card-title">Gamepad Tipo Xbox G100 <title></title>
+                        </h5>
+                        <p class="card-text">Control preciso, este mando combina funciones revolucionarias mientras
+                            conserva
+                            precisión, comodidad
                             y exactitud en cada movimiento. </p>
-                            <h2>Valor $:</h2><h2 id="G100">42500</h2>
-                            <button class="salio" id="botonG100">¡Me salio!</button>
-                            <button class="salio">Comprar</button>
-                            <hr>
+                        <h2>Valor $:</h2>
+                        <h2 id="G100">42500</h2>
+                        <button class="salio" id="botonG100">¡Me salio!</button>
+                        <button class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -333,8 +399,10 @@
                     <img src="./img/productos/parlante-tyg.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Parlante Bluetooth Portátil T&G</h5>
-                        <p class="card-text">Parlante portátil T&G 189. Reproduce música vía Bluetooth, USB, micro SD y además tienen radio FM. </p>
-                        <h2>Valor $:</h2><h2 id="G100">$52000</h2>
+                        <p class="card-text">Parlante portátil T&G 189. Reproduce música vía Bluetooth, USB, micro SD y
+                            además tienen radio FM. </p>
+                        <h2>Valor $:</h2>
+                        <h2 id="G100">$52000</h2>
                         <button class="salio" id="botonG100">¡Me salio!</button>
                         <button class="salio">Comprar</button>
                         <hr>
@@ -347,19 +415,21 @@
         <div class="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInUp wow">
             <div class="col">
                 <div class="card">
-                    <img src="./img/productos/Mouse-Alambrico-Gamer-RGB-Retroiluminado-M500.jpeg" class="card-img-top" alt="...">
+                    <img src="./img/productos/Mouse-Alambrico-Gamer-RGB-Retroiluminado-M500.jpeg" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Mouse  Gamer Retroiluminado </h5>
+                        <h5 class="card-title">Mouse Gamer Retroiluminado </h5>
                         <p class="card-text">Mouse Ergonómico, USB, Impermeable
                             Ergonómico diseñado para prevenir daños en la muñeca.
                             Tecnología óptica para un control preciso con colores de luces.
                             Puede usarse en computadora portátil</p>
-                            <h2>Valor $:</h2><h2 id="G100">$29900</h2>
-                            <button class="salio" id="botonG100">¡Me salio!</button>
-                            <button class="salio">Comprar</button>
-                            <hr>
-                            
-                            
+                        <h2>Valor $:</h2>
+                        <h2 id="G100">$29900</h2>
+                        <button class="salio" id="botonG100">¡Me salio!</button>
+                        <button class="salio">Comprar</button>
+                        <hr>
+
+
                     </div>
                 </div>
             </div>
@@ -367,17 +437,19 @@
                 <div class="card">
                     <img src="./img/productos/Audifonos-PZX-Estereo.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Audifonos PZX Estereo<title></title></h5>
+                        <h5 class="card-title">Audifonos PZX Estereo<title></title>
+                        </h5>
                         <p class="card-text">Audífonos Pzx 3.5mm Stereo Music / Alta Calidad De Audio.
                             Perfectos para escuchar tu musica preferida, ver tus series y peliculas favoritas.
-                            
+
                             También cuenta con micrófono y botón para contestar llamas, cambiar y pausar la musica.</p>
-                        <h2>Valor $:</h2><h2 id="G100">$20000</h2>
+                        <h2>Valor $:</h2>
+                        <h2 id="G100">$20000</h2>
                         <button class="salio" id="botonG100">¡Me salio!</button>
                         <button class="salio">Comprar</button>
                         <hr>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="col">
@@ -386,11 +458,14 @@
                     <div class="card-body">
                         <h5 class="card-title">Convertidor 2 a 1 Plug </h5>
                         <p class="card-text">Específicamente para auriculares con capacidad de micrófono
-                            Supera la limitación de algunos puertos de audio de la computadora portátil, al activar un solo</p>
-                            <h2>Valor $:</h2><h2 id="G100">$12500</h2>
-                            <button class="salio" id="botonG100">¡Me salio!</button>
-                            <button class="salio">Comprar</button>
-                            <hr>
+                            Supera la limitación de algunos puertos de audio de la computadora portátil, al activar un
+                            solo
+                        </p>
+                        <h2>Valor $:</h2>
+                        <h2 id="G100">$12500</h2>
+                        <button class="salio" id="botonG100">¡Me salio!</button>
+                        <button class="salio">Comprar</button>
+                        <hr>
 
                     </div>
                 </div>
@@ -398,17 +473,21 @@
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 animate__animated animate__fadeInUp wow">
-            
+
             <div class="col">
                 <div class="card">
                     <img src="./img/productos/Cable_1.5M_1X1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Cable 1.5M 1X1</h5>
-                        <p class="card-text">Cable de audio estéreo ideal para conectar dispositivos de audio con entrada 3.5mm como: radios de carro, mp3, celulares, audífonos, adaptadores bluetooth, o cualquier dispositivo con entrada auxiliar.</p>
-                            <h2>Valor $:</h2><h2 id="unoauno" >8500</h2>
-                            <button class="salio" id="unoaunoboton">¡Me salio!</button>
-                            <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
-                            <hr>
+                        <p class="card-text">Cable de audio estéreo ideal para conectar dispositivos de audio con
+                            entrada
+                            3.5mm como: radios de carro, mp3, celulares, audífonos, adaptadores bluetooth, o cualquier
+                            dispositivo con entrada auxiliar.</p>
+                        <h2>Valor $:</h2>
+                        <h2 id="unoauno">8500</h2>
+                        <button class="salio" id="unoaunoboton">¡Me salio!</button>
+                        <button onclick="window.location.href='https://goo.su/0WM6nYL'" class="salio">Comprar</button>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -416,6 +495,11 @@
 
 
     </div>
+
+    </div>
+
+
+
 
     <!--::::Pie de Pagina::::::-->
     <footer class="pie-pagina">
@@ -459,6 +543,7 @@
     <script>
         new WOW().init();
     </script>
+    <script src="https://kit.fontawesome.com/a7a01f61d2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
